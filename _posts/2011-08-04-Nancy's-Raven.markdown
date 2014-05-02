@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nancy's Raven"
-date:   2011-08-04 12.10:15
+date:   2011-08-04 12:10:15
 categories: nancyfx ravendb
 ---
 
