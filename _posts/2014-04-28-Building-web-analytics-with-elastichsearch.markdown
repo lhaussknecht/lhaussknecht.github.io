@@ -1,9 +1,25 @@
 ---
 layout: post
-title:  "Nancy's Raven"
-date:   2011-08-04 12.10:15
-categories: nancyfx ravendb
+title:  "Building Webanalytics with elasticsearch"
+date:   2014-04-28 18.01:00
+categories: elasticsearch analytics
 ---
+
+A client of mine is starting her first web based project. The application is an inhouse google chrome app. One of our
+requirements are, that we should not depend on third party services, such as Google Analytics.
+
+So the first step for me was to look for of-the-shelf solutions. I tried [Piwik](http://www.piwik.org). Piwik is an
+open-source web analytics tool. Piwik looks good, but our decision was against it. Mainly because it depends on
+MySql and it is written in PHP, which is absolutely not our technology stack.
+
+After Piwik we looked at our fresh elasticsearch installation.
+We are using elasticsearch together with Logstash for our IIS Logs and are really happy.
+
+To be honest, elasticsearch, logstash and kibana (the web frontend) are awesome! The configuration was really simple.
+We had to adjust the grok filters to match our "all switches on" IIS logs and were ready to build great looking
+kibana dashboards. Elasticsearch handles all the low-level lucene stuff for you!
+
+
 
 For a new project I was keen on taking one of the so called Micro-Web-Frameworks for a test drive.
 My favourite Framework is NancyFx. Nancy makes just fun!
