@@ -12,12 +12,14 @@ author:
   email: lh@haussknecht.com
   github: lhaussknecht
   twitter: lhaussknecht
-  bio: I'm a freenlancing developer in .net and open source technology.
+  bio: Freelance software developer in .net and open source technology.
   email_md5: d7a94e85cc5c6ee03f93eadba7fea54a
 
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
+
+#markdown: kramdown
 
 #BASE_PATH: http://lhaussknecht.github.io/
 
